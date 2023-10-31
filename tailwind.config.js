@@ -1,9 +1,22 @@
 /** @type {import('tailwindcss').Config} */
 export default {
-  content: [],
+  mode: "jit",
+  darkMode: "class",
+  content: [
+    "./src/components/**/*.{js,vue,ts}",
+    "./@corepack/**/*.{js,vue,ts}",
+    "./src/layouts/**/*.vue",
+    "./src/modules/**/*.vue",
+    "./src/plugins/**/*.{js,ts}",
+    "./nuxt.config.{js,ts}",
+  ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        yellowTail: ["YellowTail"],
+        spaceGrotesk: [`'Space Grotesk'`],
+      },
+    },
   },
   plugins: [],
-}
-
+};
