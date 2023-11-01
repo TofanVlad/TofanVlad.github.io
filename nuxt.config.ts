@@ -22,6 +22,8 @@ export default defineNuxtConfig({
     dir: './public',
   },
 
+  theme: 'dark',
+
   alias: {
     assets: path.resolve(__dirname, './src/assets'),
   },

@@ -20,7 +20,7 @@ const getDarkMode = computed(() => {
 
 <template>
   <section
-    class="mx-auto p-2 rounded-md outline outline-2 dark:outline-gray-800 outline-blue-500 dark:bg-transparent bg-gray-100 dark:shadow-none shadow-md transition-all duration-300 flex gap-4"
+    class="mx-auto p-2 rounded-md outline outline-2 dark:outline-gray-800 outline-blue-500 dark:bg-transparent bg-gray-100 dark:shadow-none shadow-md transition-all duration-300 flex gap-4 z-10"
   >
     <my-nav-btn
       v-for="(item, index) in routes"

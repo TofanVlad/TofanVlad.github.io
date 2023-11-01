@@ -2,7 +2,7 @@
 import myContainer from "../common/my-container.vue";
 </script>
 <template>
-  <my-container>
+  <my-container class="z-10">
     <nuxt-link to="/" class="w-max block">
       <h1 class="text-blue-500 text-6xl custom-font w-max">
         Tofan Vlad<span class="text-pink-500 pl-1">.</span>
