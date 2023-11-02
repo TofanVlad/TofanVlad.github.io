@@ -4,7 +4,8 @@ function getRandomData() {
     size: Math.random() * 100 + 20,
     position: Math.random() * 100,
     duration: (Math.random() + 2) * 5,
-    delay: Math.random() * 10,
+    delay: Math.random() * 10 - 5,
+    wobbleTime: Math.floor(Math.random() * 6) + 2,
   };
 }
 </script>
@@ -24,7 +25,7 @@ function getRandomData() {
       <div
         class="animate-bubble aspect-square rounded-full bg-blue-500 transition-all"
         :style="`width: ${getRandomData().size}px; animation-duration: ${
-          getRandomData().duration / 3
+          getRandomData().wobbleTime
         }s;`"
       ></div>
     </div>

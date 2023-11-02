@@ -5,7 +5,7 @@ defineProps<{ link?: string }>();
 <template>
   <nuxt-link
     :to="link"
-    class="rounded-md bg-blue-500 hover:bg-transparent relative block py-4 px-12 text-white dark:hover:text-white hover:text-gray-800 font-semibold text-2xl z-[2] group w-max transition-all duration-200"
+    class="rounded-md bg-blue-500 hover:bg-transparent relative block sm:py-4 py-3 sm:px-12 px-8 text-white dark:hover:text-white hover:text-gray-800 font-semibold sm:text-2xl text-xl z-[2] group w-max transition-all duration-200"
   >
     <slot />
     <div
