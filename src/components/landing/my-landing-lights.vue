@@ -1,7 +1,9 @@
 <script setup lang="ts"></script>
 
 <template>
-  <section class="absolute w-screen h-[100dvh] top-0 left-0">
+  <section
+    class="absolute min-h-full h-full w-full top-0 left-0 pointer-events-none"
+  >
     <div class="w-full h-full relative">
       <div
         class="w-[150px] h-[150px] rounded-full bg-blue-500 blur-3xl dark:opacity-50 opacity-60 absolute right-[5%] top-[5%]"

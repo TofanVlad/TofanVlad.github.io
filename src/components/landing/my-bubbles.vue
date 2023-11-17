@@ -12,7 +12,7 @@ function getRandomData() {
 
 <template>
   <section
-    class="absolute w-screen h-[100dvh] top-0 left-0 z-[5] overflow-hidden"
+    class="absolute w-screen h-[100dvh] top-0 left-0 z-[15] overflow-hidden pointer-events-none"
   >
     <div
       v-for="item in 12"
@@ -20,7 +20,7 @@ function getRandomData() {
       :style="`left: ${getRandomData().position}%; animation-duration: ${
         getRandomData().duration
       }s; animation-delay: ${getRandomData().delay}s`"
-      class="opacity-50 animate-translation absolute transition-all w-max invisible"
+      class="opacity-50 animate-translation absolute transition-all w-max invisible blur-sm"
     >
       <div
         class="animate-bubble aspect-square rounded-full bg-blue-500 transition-all"

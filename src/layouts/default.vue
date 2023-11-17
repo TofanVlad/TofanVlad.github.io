@@ -1,7 +1,8 @@
 <script setup lang="ts">
+import { useHead } from "nuxt/app";
 import myName from "../components/landing/my-name.vue";
 import myNav from "../components/common/my-nav.vue";
-import { useHead } from "nuxt/app";
+import myLoader from "~/components/common/my-loader.vue";
 
 useHead({
   htmlAttrs: {
@@ -12,8 +13,9 @@ useHead({
 
 <template>
   <main
-    class="w-screen h-[100dvh] flex flex-col justify-between dark:bg-[#121a29] bg-[#f9fafb] py-8 transition-colors duration-300 overflow-hidden"
+    class="min-h-[100dvh] py-8 flex flex-col transition-colors duration-300 dark:bg-[#121a29] bg-blue-50 overflow-x-hidden relative"
   >
+    <!-- <my-loader /> -->
     <my-name />
     <slot />
     <my-nav />
@@ -21,14 +23,8 @@ useHead({
 </template>
 
 <style>
-body {
-  min-height: 100vh;
-  font-family: "Space Grotesk", sans-serif;
-}
-
 #__nuxt {
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+  font-family: "Space Grotesk", sans-serif;
+  overflow-x: hidden;
 }
 </style>

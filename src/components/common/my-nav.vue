@@ -1,13 +1,7 @@
 <script setup lang="ts">
 import myNavBtn from "./my-nav-btn.vue";
 import useColorTheme from "../../composables/useColorTheme";
-const routes = [
-  { link: "/", icon: "material-symbols:home-rounded" },
-  { link: "/portfolio", icon: "ic:baseline-lightbulb" },
-  { link: "/about", icon: "ic:sharp-person" },
-  { link: "mailto:test@gmail.com", icon: "mdi:gmail" },
-  { link: "https://github.com/TofanVlad", icon: "mdi:github" },
-];
+import { navRoutes } from "~/constants";
 
 const { isDarkActive, changeTheme } = useColorTheme();
 
@@ -20,10 +14,10 @@ const getDarkMode = computed(() => {
 
 <template>
   <section
-    class="p-2 rounded-md outline outline-2 dark:outline-gray-800 outline-blue-500 dark:bg-transparent bg-gray-100 dark:shadow-none shadow-md transition-all duration-300 grid md:grid-cols-6 grid-cols-3 md:gap-4 gap-2 z-10 w-max mx-auto"
+    class="p-2 rounded-md outline outline-2 dark:outline-gray-800 outline-blue-500 dark:bg-transparent bg-gray-100 dark:shadow-none shadow-md transition-all duration-300 grid sm:grid-cols-6 grid-cols-3 gap-2 z-10 w-max mx-auto mt-auto"
   >
     <my-nav-btn
-      v-for="(item, index) in routes"
+      v-for="(item, index) in navRoutes"
       :key="index"
       :link="item.link"
       :icon="item.icon"

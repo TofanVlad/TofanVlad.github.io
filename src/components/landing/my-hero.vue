@@ -5,9 +5,10 @@ import myButton from "../common/my-button.vue";
 
 <template>
   <my-container
-    class="mt-16 dark:text-white text-gray-800 transition-all duration-300 xl:text-6xl md:text-5xl text-4xl font-bold flex flex-col gap-8 relative"
+    size="small"
+    class="mt-auto dark:text-white text-gray-800 transition-all duration-300 xl:text-6xl md:text-5xl text-4xl font-bold flex flex-col gap-8 relative"
   >
-    <div class="xl:px-32 lg:px-16 sm:px-8 flex flex-col sm:gap-8 gap-4 z-10">
+    <div class="flex flex-col sm:gap-8 gap-4 z-10">
       <h2>Hello! 👋🏻</h2>
       <h2>My name is Vlad</h2>
       <h2>
@@ -31,6 +32,7 @@ import myButton from "../common/my-button.vue";
         src="/undraw_working_late_re_0c3y.svg"
         alt="Background image"
         class="w-full h-full object-cover"
+        loading="lazy"
       />
     </div>
   </my-container>
