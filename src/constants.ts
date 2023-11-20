@@ -2,7 +2,7 @@ export const navRoutes = [
     { link: "/", icon: "material-symbols:home-rounded" },
     { link: "/portfolio", icon: "ic:baseline-lightbulb" },
     { link: "/about", icon: "ic:sharp-person" },
-    { link: "mailto:test@gmail.com", icon: "mdi:gmail" },
+    { link: "mailto:tofanvladit@gmail.com", icon: "mdi:gmail" },
     { link: "https://github.com/TofanVlad", icon: "mdi:github" },
 ];
 
