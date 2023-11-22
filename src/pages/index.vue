@@ -9,3 +9,15 @@ import myBubbles from "~/components/landing/my-bubbles.vue";
   <my-landing-lights />
   <my-bubbles />
 </template>
+
+<style>
+.page-enter-active,
+.page-leave-active {
+  transition: all 0.4s;
+}
+.page-enter,
+.page-leave-active {
+  opacity: 0.5;
+  filter: blur(1rem);
+}
+</style>

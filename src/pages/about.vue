@@ -32,7 +32,9 @@ import myLandingLights from "~/components/landing/my-landing-lights.vue";
     <p class="font-medium md:text-xl text-lg my-1">
       📫 How to reach me tofanvladit@gmail.com
     </p>
-    <my-button class="mb-8">Download CV</my-button>
+    <my-button class="mb-8" link="CV_Tofan_Vlad.pdf" download
+      >Download CV</my-button
+    >
   </my-container>
   <my-landing-lights />
 </template>
