@@ -11,7 +11,7 @@ import myButton from "../common/my-button.vue";
     <div class="flex flex-col sm:gap-8 gap-4 z-10">
       <h2>Hello! 👋🏻</h2>
       <h2>My name is Vlad</h2>
-      <h2>
+      <h2 class="sm:leading-normal leading-relaxed">
         I'm a Frontend
         <span class="text-blue-500 target xl:text-7xl lg:text-6xl text-5xl"
           >Developer</span
@@ -32,7 +32,6 @@ import myButton from "../common/my-button.vue";
         src="/undraw_working_late_re_0c3y.svg"
         alt="Background image"
         class="w-full h-full object-cover"
-        loading="lazy"
       />
     </div>
   </my-container>

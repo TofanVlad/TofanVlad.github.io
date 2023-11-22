@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import myNavBtn from "./my-nav-btn.vue";
 import useColorTheme from "../../composables/useColorTheme";
-import { navRoutes } from "~/constants";
+import { navRoutes } from "~/utils/constants";
 
 const { isDarkActive, changeTheme } = useColorTheme();
 
@@ -21,7 +21,9 @@ const getDarkMode = computed(() => {
       :key="index"
       :link="item.link"
       :icon="item.icon"
+      :name="item.name"
     />
-    <my-nav-btn :icon="getDarkMode" @click="changeTheme" />
+    <my-nav-btn :icon="getDarkMode" @click="changeTheme" name="changeColor" />
   </section>
 </template>
+~/utils/constants

@@ -5,13 +5,13 @@ import myLandingLights from "~/components/landing/my-landing-lights.vue";
 </script>
 
 <template>
-  <my-container size="small" class="dark:text-white text-gray-800 mt-16">
+  <my-container size="small" class="dark:text-white text-gray-800 mt-16 z-[5]">
     <h1 class="lg:text-6xl md:text-5xl text-4xl font-bold">About Me 👨‍</h1>
     <h2 class="font-light md:text-2xl text-xl mt-4">
       A brief intro to who I am and how I do what I do:
     </h2>
     <img
-      src="/Profile-pic.jpg"
+      src="/Profile-pic.webp"
       alt="profile-picture"
       width="403"
       height="504"

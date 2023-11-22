@@ -2,7 +2,7 @@
 
 <template>
   <section
-    class="absolute min-h-full h-full w-full top-0 left-0 pointer-events-none"
+    class="absolute sm:block hidden min-h-full h-full w-full top-0 left-0 pointer-events-none"
   >
     <div class="w-full h-full relative">
       <div

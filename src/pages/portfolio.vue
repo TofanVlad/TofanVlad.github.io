@@ -2,7 +2,7 @@
 import myContainer from "~/components/common/my-container.vue";
 import myCard from "~/components/portfolio/my-card.vue";
 import myPortfolioLights from "~/components/portfolio/my-portfolio-lights.vue";
-import { personalProjects, commercialProjects } from "../constants";
+import { personalProjects, commercialProjects } from "~/utils/constants";
 </script>
 
 <template>
