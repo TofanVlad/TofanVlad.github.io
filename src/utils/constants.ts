@@ -50,6 +50,6 @@ export const commercialProjects = [
         title: "Tehnoconduct",
         description: `My contribution to this project is partial design and developing. It is still in progress, so you'll have to wait to check it out! `,
         image: "/Tehnoconduct.webp",
-        link: ''
+        link: 'https://tehnoconduct.md'
     }
 ]
