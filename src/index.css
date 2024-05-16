@@ -1,0 +1,64 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: Mussels;
+    src: url(/font/MusselsBold.otf);
+    font-weight: 700;
+    font-style: normal;
+ }
+@font-face {
+    font-family: Mussels;
+    src: url(/font/MusselsMedium.otf);
+    font-weight: 500;
+    font-style: normal;
+ }
+@font-face {
+    font-family: Mussels;
+    src: url(/font/MusselsRegular.otf);
+    font-weight: 400;
+    font-style: normal;
+ }
+@font-face {
+    font-family: Mussels;
+    src: url(/font/MusselsLight.otf);
+    font-weight: 300;
+    font-style: normal;
+ }
+@font-face {
+    font-family: Mussels;
+    src: url(/font/MusselsThin.otf);
+    font-weight: 100;
+    font-style: normal;
+ }
+
+ @layer components{
+    .rotate {
+        animation: float 3s infinite alternate ease-in-out;
+    }
+    
+    @keyframes float {
+        0% {
+            transform: translateY(0) rotate3d(0, 1, 0, -20deg);
+        }
+    
+        100% {
+            transform: translateY(20px) rotate3d(0, 1, 0, -20deg);
+        }
+    }
+ }
+
+ html{
+    scroll-behavior: smooth;
+ }
+
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100svh;
+    background-color: #0e0e0e;
+    color: white;
+    font-family: Mussels;
+    overflow-x: hidden;
+}

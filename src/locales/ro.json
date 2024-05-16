@@ -1,0 +1,45 @@
+{
+    "nav": {
+        "home": "Acasă",
+        "projects": "Proiecte",
+        "about": "Despre",
+        "contacts": "Contacte",
+        "menu": "Meniu"
+    },
+    "header": {
+        "based": "SITUAT ÎN MOLDOVA",
+        "welcome_1": "BINE AȚI VENIT",
+        "welcome_2": "PORTOFOLIUL MEU 2024",
+        "button": "DISPONIBIL",
+        "specialize": "SPECIALIZAT ÎN EXPERIENȚE WEB INTERACTIVE"
+    },
+    "about": {
+        "title": "DESPRE MINE",
+        "title_desc": "Salut, sunt un student din Moldova și am 20 de ani, și-mi încep călătoria în industria IT. Sunt entuziast și sunt mereu deschis pentru noi experiențe și provocări pentru a-mi perfecționa și avansa abilitățile mele.",
+        "exp": "EXPERIENȚĂ PROFESIONALĂ",
+        "exp_desc": "Lucrând la Tweenyone SRL, am dezvoltat pagini web pentru a satisface cerințele fiecărui client, implementând în același timp un design responsive.",
+        "education": "EDUCAȚIE",
+        "education_web_1": "ADMINISTRAREA APLICAȚIILOR WEB",
+        "education_web_2": "CENTRU DE EXCELENȚĂ ÎN ECONOMIE ȘI FINANȚE",
+        "education_utm_1": "TEHNOLOGII INFORMAȚIONALE",
+        "education_utm_2": "UNIVERSITATEA TEHNICĂ A MOLDOVEI",
+        "city": "CHIȘINĂU"
+    },
+    "card": {
+        "selected": "Proiectele selectate",
+        "visit": "Vizitează",
+        "year": "Anul",
+        "role": "Rolul",
+        "tehnologies": "Tehnologii"
+    },
+    "stack": {
+        "title": "Abilități & Tehnologii",
+        "button_show" : "Arată",
+        "button_hide" : "Ascunde",
+        "button" : "Stack"
+    },
+    "footer": {
+        "title": "HAI SĂ LUCRĂM ÎMPREUNĂ",
+        "connect": "CONNECTEAZĂ-TE"
+    }
+}
