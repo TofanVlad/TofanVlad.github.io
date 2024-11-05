@@ -50,5 +50,18 @@ export const projectsInfo: IProject[] = [{
         ro: 'În acest proiect am recreat jocul popular Minesweeper.',
     },
     video: '/images/MineSweeper.png'
+}, {
+    href: 'https://github.com/TofanVlad/innete',
+    title: {
+        en: 'Inette',
+        ro: 'Inette',
+    },
+    year: 2024,
+    tehnologies: ['Vue', 'Typescript', 'TailwindCSS', 'AnimeJS'],
+    description: {
+        en: 'This project is replica of real web-site inette.co.',
+        ro: 'Acest proiect este replica unui web-site real inette.co.',
+    },
+    video: '/images/Inette.png'
 }]
 
