@@ -8,7 +8,7 @@ export interface IProject {
     role?: string
 }
 
-export const myStack: string[] = ['Vue JS', 'Nuxt JS', 'Tailwind CSS', 'Three JS', 'API', 'i18n', 'Typescript', 'git', 'SEO']
+export const myStack: string[] = ['Vue JS', 'Nuxt JS', 'Tailwind CSS', 'Three JS', 'API', 'SwiperJS', 'Typescript', 'git', 'SEO']
 
 export const projectsInfo: IProject[] = [{
     title: {
@@ -63,5 +63,19 @@ export const projectsInfo: IProject[] = [{
         ro: 'Acest proiect este replica unui web-site real inette.co.',
     },
     video: '/images/Inette.png'
-}]
+}, {
+    href: 'https://www.arhiterra.md/ro/',
+    title: {
+        en: 'ARHITERRA',
+        ro: 'ARHITERRA',
+    },
+    year: 2025,
+    tehnologies: ['Nuxt', 'Typescript', 'TailwindCSS', 'SwiperJS'],
+    description: {
+        en: 'Comercial project of a architecture company.',
+        ro: 'Proiect comercial a unei companii de arhitectură.',
+    },
+    video: '/images/ARHITERRA.png'
+}
+]
 

@@ -9,7 +9,7 @@
     "header": {
         "based": "SITUAT ÎN MOLDOVA",
         "welcome_1": "BINE AȚI VENIT",
-        "welcome_2": "PORTOFOLIUL MEU 2024",
+        "welcome_2": "PORTOFOLIUL 2025",
         "button": "DISPONIBIL",
         "specialize": "SPECIALIZAT ÎN EXPERIENȚE WEB INTERACTIVE"
     },
@@ -18,6 +18,7 @@
         "title_desc": "Salut, sunt un student din Moldova și am 21 de ani, și-mi încep călătoria în industria IT. Sunt entuziast și sunt mereu deschis pentru noi experiențe și provocări pentru a-mi perfecționa și avansa abilitățile mele.",
         "exp": "EXPERIENȚĂ PROFESIONALĂ",
         "exp_desc": "Lucrând la Tweenyone SRL, am dezvoltat pagini web pentru a satisface cerințele fiecărui client, implementând în același timp un design responsive.",
+        "exp_desc2": "",
         "education": "EDUCAȚIE",
         "education_web_1": "ADMINISTRAREA APLICAȚIILOR WEB",
         "education_web_2": "CENTRU DE EXCELENȚĂ ÎN ECONOMIE ȘI FINANȚE",
