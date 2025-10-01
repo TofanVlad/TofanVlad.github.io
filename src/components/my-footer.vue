@@ -3,6 +3,7 @@ import { onMounted, ref, Ref } from "vue";
 import { footerThree } from "../threejs/footer";
 import myContainer from "./my-container.vue";
 import myLink from "./my-link.vue";
+import MyButton from "./my-button.vue";
 
 const canvas: Ref<HTMLCanvasElement | null> = ref(null);
 
@@ -31,32 +32,37 @@ onMounted(() => {
     >
       + {{ $t("footer.title") }}
     </div>
-    <div class="flex flex-col lg:w-[50%] w-[75%] gap-2">
+    <div class="flex flex-col lg:w-[50%] xs:w-[75%] w-full xs:px-0 px-4 gap-2">
       <p
         class="w-full border-b-[1px] border-white text-center lg:text-[1.6vw] text-2xl"
       >
         {{ $t("footer.connect") }}
       </p>
-      <div class="grid grid-cols-3 gap-8">
+      <div class="grid xs:grid-cols-4 grid-cols-2 xs:gap-8 gap-2">
         <my-link text="GITHUB" href="https://github.com/TofanVlad" />
         <my-link
           text="LINKEDIN"
           href="https://www.linkedin.com/in/vlad-tofan-349b70291/"
-          class="place-self-center"
+          class="xs:place-self-center place-self-end"
         />
         <my-link
-          text="DISCORD"
-          href="https://discordapp.com/users/284386100829487106"
+          text="EMAIL"
+          href="mailto:tofanvladit@gmail.com"
+          class="xs:place-self-center"
+        />
+        <my-link
+          text="TELEGRAM"
+          href="https://t.me/tofanVlad"
           class="place-self-end"
         />
       </div>
+      <my-button
+        href="Tofan Vlad CV.pdf"
+        download="Tofan Vlad CV.pdf"
+        class="mt-4"
+        >{{ $t("footer.download") }}</my-button
+      >
     </div>
-    <a
-      href="mailto:tofanvladit@gmail.com"
-      class="lg:text-[3.6vw] text-4xl h-max lg:leading-[3.6vw] tracking-widest overflow-hidden relative before:bottom-0 before:-left-full before:absolute before:content-[''] before:bg-white before:h-[2px] before:w-full hover:before:translate-x-full before:transition-transform"
-    >
-      TOFANVLADIT<br class="block md:hidden" />@GMAIL.COM</a
-    >
   </my-container>
 </template>
 
