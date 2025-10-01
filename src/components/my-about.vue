@@ -5,6 +5,12 @@ import myContainer from "./my-container.vue";
 
 const canvas: Ref<HTMLCanvasElement | null> = ref(null);
 
+function getMyAge() {
+  const myBD = new Date(2003, 6, 23);
+  const nowDate = new Date();
+  return nowDate.getFullYear() - myBD.getFullYear();
+}
+
 onMounted(() => {
   if (canvas.value !== null) aboutThree(canvas.value);
 });
@@ -22,7 +28,8 @@ onMounted(() => {
           {{ $t("about.title") }}
         </p>
         <h1 class="md:text-2xl sm:text-2xl text-base tracking-widest uppercase">
-          {{ $t("about.title_desc") }}
+          {{ $t("about.title_desc_1") }} {{ getMyAge() }}
+          {{ $t("about.title_desc_2") }}
         </h1>
       </div>
     </div>
@@ -34,19 +41,19 @@ onMounted(() => {
         <p class="sm:text-sm text-xs tracking-widest">
           {{ $t("about.exp") }}
         </p>
-        <h1 class="md:text-[46px] sm:text-4xl text-2xl">
+        <h1 class="md:text-4xl sm:text-2xl text-xl">
           Frontend Developer<br class="lg:block hidden" />
           TweenyOne SRL <br />
           2023 - 2024
         </h1>
-        <h1 class="md:text-[46px] sm:text-4xl text-2xl mt-4">
+        <h1 class="md:text-4xl sm:text-2xl text-xl mt-4">
           Frontend Developer<br class="lg:block hidden" />
           Triseidon SRL <br />
           2024 - 2025
         </h1>
       </div>
       <div
-        class="lg:border-l-2 lg:border-t-0 flex-col border-t-2 border-white h-full md:text-3xl sm:text-xl text-lg lg:mx-0 mx-8 lg:py-0 lg:px-4 pt-4 tracking-widest flex"
+        class="lg:border-l-2 lg:border-t-0 flex-col border-t-2 border-white h-full md:text-2xl sm:text-xl text-lg lg:mx-0 mx-8 lg:py-0 lg:px-4 pt-4 tracking-widest flex"
       >
         <p class="my-auto">
           {{ $t("about.exp_desc") }}

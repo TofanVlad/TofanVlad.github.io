@@ -15,7 +15,8 @@
     },
     "about": {
         "title": "DESPRE MINE",
-        "title_desc": "Salut, sunt un student din Moldova și am 21 de ani, și-mi încep călătoria în industria IT. Sunt entuziast și sunt mereu deschis pentru noi experiențe și provocări pentru a-mi perfecționa și avansa abilitățile mele.",
+        "title_desc_1": "Salut, sunt un student din Moldova și am",
+        "title_desc_2": "de ani, și-mi încep călătoria în industria IT. Sunt entuziast și sunt mereu deschis pentru noi experiențe și provocări pentru a-mi perfecționa și avansa abilitățile mele.",
         "exp": "EXPERIENȚĂ PROFESIONALĂ",
         "exp_desc": "Lucrând la Tweenyone SRL, am dezvoltat pagini web pentru a satisface cerințele fiecărui client, implementând în același timp un design responsive.",
         "exp_desc2": "LA TRISEIDON SRL, AM IMPLEMENTAT DESIGN RESPONSIV ȘI MODULAR. DE ASEMENEA, AM CREAT SCENE 3D ANIMATE COMPLET PERSONALIZATE UTILIZÂND THREE.JS ȘI BLENDER.",
